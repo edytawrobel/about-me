@@ -3,49 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>My first page</title>
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="styles/dropdown_menu.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-  	<h1>Hej, it is me in <a name="top">2015!!</a></h1>
-  	<p>...catching some sun rays, believe me, they are very precious here in the UK!</p>
-  	<p id="main photo">
-    <img src="images/cam2015.jpg" alt="Photo of me in the sun"></p>
+  <body bgcolor="CCFFCC" text="006633"> 
+  <form>
+
+<ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">About Me</a>
+        <ul>
+            <li><a href="#">Past</a></li>
+            <li><a href="#">Present</a></li>
+            <li><a href="#">Future Vision</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Interests</a>
+        <ul>
+            <li><a href="#">Healthy Lifestyle</a></li>
+            <li><a href="#">Theatre</a></li>
+            <li><a href="#">Music</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Contact</a>
+        <ul>
+            <li><a href="#">Online</a></li>
+            <li><a href="#">Offline</a></li>
+            <li><a href="#">Elsewhere</a></li>
+        </ul>
+    </li>
+</ul>
+
+  </form>
+  <br>
+    <h1>Hej, it is me in <a name="top">2015!!</a></h1>
+    <p>...catching some sun rays, believe me, they are very precious here in the UK!</p>
+    <p>
+    <img src="images/cam2015.jpg" id="mainphoto" alt="Photo of me in the sun"></p>
 
     <h2>Things I love most:</h2>
-    	<ul>
-    	<li>blue sky</li>
-    	<li>sound of rolling sea waves</li>
-    	<li>cheesecake</li>
-    	</ul>
 
-	<h2>Things I know for certain:</h2>
-		<table>
-		<tr>
-		<th>
-		<strong>EXISTENTIAL</strong>
-		</th>
-		<th colspan="2">
-		EXTRATERRESTRIAL
-		</th>
-		<tr>
-		<tr>
-		<td> Nutricious breakfast is essential if you want a productive day</td>
-		<td></td>
-		<td> Stars are most beautiful in high mountains </td>
-		</tr>
+      <ol>
+      <li>blue sky</li>
+      <li>sound of rolling sea waves</li>
+      <li>cheesecake</li>
+      </ol>
 
-
-		</table>
-
-		<hr>
-
-	<h1>But... who is <strong>me</strong>?</h1>
-  <br>
-  <br>	
+ <br>
   <h4><b>Sayōnara!</b></h4>
   <br>
   <br>
-  you can find me <a href="https://twitter.com/eda_wu">here</a><br>
-  or simply <a href=mailto:wrobeledyta.ew@gmail.com>email</a> me!</p>
+  you can find me <a class="clean" href="https://twitter.com/eda_wu">here</a><br>
+  or simply <a class="clean" href=mailto:wrobeledyta.ew@gmail.com>email</a> me!</p>
   <br>
   <br>
   <br>
