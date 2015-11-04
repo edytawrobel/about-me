@@ -1,3 +1,12 @@
+body { 
+background-image: url(http://www.wallcoo.net/other/blue/images/ml0010.jpg); 
+background-repeat: no-repeat; 
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 ul {
     font-family: Calibri;
     font-size: 16px;
@@ -38,7 +47,7 @@ ul li a {
     white-space: nowrap;
 }
 ul li a:hover {
-background: #3b3b3b;
+background: #00008B;
 }
 li:hover ul {
     display: block;
@@ -48,7 +57,7 @@ li:hover li {
     float: none;
     font-size: 11px;
 }
-li:hover a { background: #3b3b3b; }
+li:hover a { background: #00008B; }
 li:hover li a:hover {
     background: #1e7c9a;
 }
